@@ -36,7 +36,155 @@
 			<p class="lead"><i>It's okay to salivate...</i></p>
 		</div>
 			
-	 
+	    <div class="row">
+	    	<div class="col-md-4">
+	    	</div>
+	    	<div class="col-md-4">
+	    		<form>
+	    			<div class= "input-group">
+	    				<span class= "input-group-addon">
+	    					 <i class="fa fa-search fa-lg fa-fw" aria-hidden="true"></i> 
+	    				</span>
+	    				<input type="text" class="form-control" placeholder="Enter search input" aria-label="">
+	    				<span class="input-group-btn">
+			        		<button class="btn btn-outline-secondary" type="button">Search</button>
+			    		</span>
+					</div>
+					
+				</form>
+			</div>
+		</div>
+	</div>
+	<section id="top-recipes">
+		<div>
+		  <h3 class="center-align">Popular Recipes</h3>
+		</div>
+
+		<!-- <div class="container"> -->
+		 
+ <div class="card-deck">
+  <div class="card">
+	<!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+	    <img class="img-fluid" src="images/vegetablesoup.jpg" alt="Card image cap" width="537.5">
+          <div class="card-block">
+            <h4 class="card-title">vegetable soup</h4>
+           <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+			 <a   class="btn btn-outline-danger" href="recipeCatalog.html"><strong>EXPLORE</strong></a>
+			<!-- <a href="ProfilePage.html" role="button"><strong><h6>@chefsteve</h6><strong></a>  -->
+		   <p class="card-text"><small class="text-muted">Last updated 4 mins ago</small></p>
+			<a href="ProfilePage.html" role="button"><strong><h6>@mr_shrek</h6></strong></a>
+	      <div class="card-footer">
+ 		 <p><a class="btn-floating"> 
+ 	</div>
+    </div>
+  </div>
+
+  <div class="card">
+	<!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+	  <img class="img-fluid" src="images/lasagna.jpg" alt="Card image cap" width="537.5">
+ <div class="card-block">
+		<h4 class="card-title">lasagna</h4>
+		<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+		<a   class="btn btn-outline-danger" href="recipeCatalog.html"><strong>EXPLORE</strong></a> 
+		<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+			<a href="ProfilePage.html" role="button"><strong><h6>@chefsteve</h6></strong></a>  
+    <div class="card-footer">
+ 		<p><a class="btn-floating">
+		<!-- <a href="ProfilePage.html" role="button"><strong><h6>@chefsteve</h6><strong></a> -->
+ 			</p>
+	</div>
+   </div>
+  </div>
+
+  <div class="card">
+	<!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+		<img class="img-fluid" src="images/frenchMeal4.jpg" alt="Card image cap" width="537.5">
+    <div class="card-block">
+      <h4 class="card-title">French pie</h4>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+	   <a class="btn btn-outline-danger" href="recipeCatalog.html"><strong>EXPLORE</strong></a> 
+	  <p class="card-text"><small class="text-muted">Last updated 35 mins ago</small></p>
+		<a href="ProfilePage.html" role="button"><strong><h6>@chefsteve</h6></strong></a> 
+	  <div class="card-footer">
+ 		<p><a class="btn-floating">
+		<!-- <h6>@chefsteve</h6> -->
+		   
+ 			</p>
+	  </div>
+    </div>
+  </div>
+</div> 
+
+
+				                 <!--footer  -->
+	          <hr> 
+         <footer class="bg-color footer2">
+            <div class="container">
+                <div class="row">
+                  <div class="col text-center text-black">
+                      <p>Designed by: Douglas &nbsp;&nbsp;&nbsp; © 2017</p>
+                    </div>
+                  </div>
+                </div>
+			</footer>
+			
+
+
+<!--the modal for login-->
+	      <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+    	  <div class="modal-dialog">
+				<div class="loginmodal-container">
+					<h1>Login to Your Account</h1><br>
+				  <form>
+					<input type="text" name="user" placeholder="Username">
+					<input type="password" name="pass" placeholder="Password">
+					<!-- <input type="submit" name="login" class="login loginmodal-submit" value="Login"> -->
+					<a class="btn btn-outline-danger btn-block" href="authenticatedUserPage.html" role="button"><strong>submit<strong></a>
+                    
+				  </form>
+					
+				  <div class="login-help text-center">
+					 <!-- <a href="#">Forgot Password</a> -->
+					<a href="#" data-toggle="modal" data-target="#forgot-modal">forgot password?</a> 
+
+				  </div>
+				</div>
+				</div>
+			</div>
+
+
+         <!--the forgot password modal  -->
+	      <div class="modal fade" id="forgot-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+    	  <div class="modal-dialog">
+				<div class="loginmodal-container">
+					<h1>enter valid recovery email here </h1><br>
+				  <form>
+					<input type="email" name="user" placeholder="recoveryemail@email.com">
+     				 <button type="submit" class="btn btn-outline-danger btn-block"><href="#" data-toggle="modal" data-target="#signUp-modal"><strong>submit<strong></a></button> 
+				  </form>
+				</div>
+				</div>
+			</div>
+
+		  <!--the modal for signUp  -->
+	     <div class="modal fade" id="signUp-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+    	  <div class="modal-dialog">
+				<div class="signUpmodal-container">
+					<h1>Signup here to have your own account</h1><br>
+				  <form>
+					<input type="text" name="user" placeholder="Username">
+					<input type="email" name="user" placeholder="email">
+					<input type="number" name="user" placeholder="phone number">
+					<input type="password" name="pass" placeholder="Password">
+					<input type="password" name="pass" placeholder="confirm password">
+					<!-- <input type="submit" name="login" class="login loginmodal-submit" value="Login"> -->
+					<!-- <ul> -->
+					<a class="btn btn-outline-danger btn-block" href="authenticatedUserPage.html" role="button"><strong>submit<strong></a>
+                      <!-- </ul> -->
+					</div>
+				</div>
+			</div>
+
 		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
